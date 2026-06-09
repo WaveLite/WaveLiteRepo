@@ -1,0 +1,15 @@
+-- modules/features.lua
+-- Paste the following sections from your original script exactly as-is:
+--   FLY (startFly, stopFly, _G.WaveLite_Fly_Toggle, CharacterAdded)
+--   NOCLIP (_G.WaveLite_Noclip_Toggle, CharacterAdded)
+--   CAM LOCK (camLockActive, fovCircle, lockDot, doWallChecks, RenderStepped, _G.WaveLite_CamLock_Toggle)
+--   NO FOG (_G.WaveLite_NoFog_Toggle)
+--   MAXZOOM (_G.WaveLite_Maxzoom_Toggle)
+--   CAM FOV (_G.WaveLite_CamFOV_Toggle)
+--   NAME ESP (addNameESP, removeNameESP, _G.WaveLite_NameESP_Toggle)
+--   BOX ESP (all box drawing functions, _G.WaveLite_BoxESP_Toggle)
+--   TRACERS (updateTracers, clearAllTracers, _G.WaveLite_Tracers_Toggle)
+--   CLICK TP (_G.WaveLite_ClickTP_Create, _G.WaveLite_ClickTP_Remove)
+
+-- This module sets up all _G.WaveLite_* globals so ui.lua and chat.lua can call them.
+-- No return needed — it works via _G side effects.
