@@ -1,0 +1,9 @@
+-- modules/ui.lua
+-- Paste these sections from your original script:
+--   SCREEN GUI (ScreenGui creation, syn.protect_gui, BindToClose)
+--   SCRIPT BAN SCREEN (task.spawn that checks scriptBanned after 3s)
+--   MAIN UI (Main, Header, Body, makePanel, LeftPanel, RightPanel)
+--   WIDGET BUILDERS (makeRow, makeLabel, makeCheckbox, makeKeybindBox, makeSlider, makeAimPartDropdown)
+--   POPULATE PANELS (the two do blocks that fill LeftScroll and RightScroll)
+--   MAIN DRAG (Header.InputBegan, UserInputService connections)
+--   HEADER BUTTONS (ThemeBtn, GearBtn, CountPill, UserCountLabel, the count task.spawn)
