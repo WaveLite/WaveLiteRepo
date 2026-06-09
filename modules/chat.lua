@@ -1,0 +1,12 @@
+-- modules/chat.lua
+-- Paste these sections from your original script:
+--   CHAT PANEL (ChatPanel frame, ChatHeader, ChatLog, ChatInput, SendBtn, ChatWarnLabel)
+--   MINIMIZED PILL (MinimizedPill, NotifDot)
+--   MOD POPUP HELPERS (closePopup, showModPopup)
+--   CHAT MESSAGE DISPLAY (addChatMessage, getUserColor, etc.)
+--   FIREBASE CHAT SEND/FETCH (sendMessage, trySend, fetchMessages, the task.spawn poll loop)
+--   CHAT SHOW/HIDE (setChatVisible, MinimizeBtn, MinimizedPill, GearBtn connections)
+--   CHAT LOCK/DRAG (chatDragging, LockBtn, ChatHeader.InputBegan, etc.)
+
+-- This module needs ScreenGui (from ui.lua) and Firebase/State passed in,
+-- OR you can just keep using shared _G / upvalues as in the original.
